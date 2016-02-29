@@ -1,7 +1,7 @@
 body {
   padding-top: 20px;
 }
-.centerBlock > div {
+.comida, header{
   background-color: #f2f2f2;
   border: 1px solid #ccc;
   float: left;
@@ -18,11 +18,17 @@ p {
   border-radius: 10px;
   padding: 10px;
 }
-.centerBlock {
+.centerBlock{
   width: 660px;
-  background-color: #f00;
   margin: 10px auto;
 }
+
+.heart{
+  font-size 30px
+  cursor pointer
+  color gray
+}
+
 input[type=checkbox] {
   -webkit-appearance: none;
   -moz-appareance: none;
@@ -33,8 +39,12 @@ input[type=checkbox]:focus {
   outline: 0;
 }
 input[type=checkbox]:checked {
-  color: #f00;
+  color: red;
 }
+input[type='text']{
+  margin-bottom 10px;
+}
+
 .glyphicon {
   font-size: 30px;
   cursor: pointer;
